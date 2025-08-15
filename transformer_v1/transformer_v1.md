@@ -2,3 +2,4 @@ basic architecture, say its from cms internal research, maybe link some articles
 
 give some specification (like in the presentation, amount of heads, encoding dim etc what loss fct, optimizer)
 
+transformer 16
