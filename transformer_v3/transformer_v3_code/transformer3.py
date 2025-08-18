@@ -1,4 +1,4 @@
-#like 32 but use px, py, pz neutrinos, then calculate eta, phi
+#  use px, py, pz neutrinos, then calculate eta, phi
 
 import torch
 import torch.nn as nn
