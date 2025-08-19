@@ -7,9 +7,9 @@ Here, the focus was on enriching the input information and extending the regress
 
 ## Main changes from v1
 
-- Tau matrix: added primary–secondary vertex (PV–SV) components for each tau.  
+- Tau matrix: added primary–secondary vertex (PV–SV) components for each tau, boosted the tau momenta into tau_1+tau_2 CoM reference frame.  
 - Other matrix: introduced a new matrix with MET + jets (px, py, pz, energy).  
-- Decay matrix: extended pion features with energy, charge, and energy fraction.  
+- Decay matrix: extended pion features with energy, charge, and energy fraction; added the angle between the pion momentum and the boosted momentum of the corresponding tau for each pion. 
 - Momentum representation: switched from ($p_T$, $\eta$, $\phi$) to full Cartesian components ($p_x$, $p_y$, $p_z$).  
 - Targets: included generated neutrino momenta ($p_x$, $p_y$, $p_z$ for each neutrino).  
   - These were added to the reconstructed tau momenta to recover the full tau 4-momenta.  
