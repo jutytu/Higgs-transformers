@@ -66,4 +66,4 @@ Both reconstructed and regressed angular variables are close to the generated on
 This was the final version developed during the internship. We observe that the recovered $\phi_{CP}$ distribution is of good quality, similarly to v2.  
 It is therefore sufficient to regress the full tau momenta instead of only neutrinos.  
 
-There is still room for improvement, but the progress compared to the simple feed-forward network is significant (see [nn.md](../nn/nn.md) for the direct comparison of $\phi_{CP}$ distributions).  
+There is still room for improvement, but the progress compared to the simple feed-forward network is significant (see the end of [nn.md](../nn/nn.md) for the direct comparison of $\phi_{CP}$ distributions).  
