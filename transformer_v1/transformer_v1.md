@@ -61,7 +61,6 @@ The recovered distribution is closer to the reference than the neural network on
 | ![Recovered phiCP](transformer_v1_results/phiCP_distr.png)  | <img width="2070" height="1440" alt="image" src="https://github.com/user-attachments/assets/e355a6dc-95df-4572-8a29-af5659ef93fa" /> |
 |---|---|
 
----
 
 ## References
 
