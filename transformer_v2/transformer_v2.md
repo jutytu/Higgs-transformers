@@ -34,7 +34,7 @@ Here, the focus was on enriching the input information and extending the regress
 
 Below are examples of generated vs. regressed distributions for selected momentum components:
 
-| ![px1](transformer_v2_results/preds_px1.png) | ![py2](transformer_v2_results/preds_py2.png) | ![pz1](transformer_v2_results/preds_pz1.png) |  
+| ![px1](transformer_v2_results/preds_px1.png) | ![py2](transformer_v2_results/preds_py1.png) | ![pz1](transformer_v2_results/preds_pz1.png) |  
 |---|---|---|  
 
 Mean Absolute Error (MAE) for the **full tau momenta** (regressed neutrinos + reconstructed taus):  
