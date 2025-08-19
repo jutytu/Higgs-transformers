@@ -1,16 +1,52 @@
 # Higgs-transformers
-Internship project focusing on building an ML model to regress transverse momenta of tau leptons created through Higgs boson decays in order to determine the Higgs boson CP-symmetry.
+
+This repository contains the work from my research internship in the CMS group at my university.  
+The project focused on using transformer-based architectures to improve the reconstruction of tau lepton kinematics in Higgs boson decays.  
+The motivation comes from studying the CP properties of the Higgs through the acoplanarity angle ($\phi_{CP}$), which is sensitive to the Higgs–tau–tau coupling.  
+
+For the theoretical background and data description, see:
+- [theory_overview.md](theory/theory_overview.md)  
+- [data.md](data/data.md)  
+
+
+## Project idea and workflow
+
+The general idea was to test whether transformer architectures can outperform a simple feed-forward neural network in recovering missing kinematic information (especially neutrinos) and in building CP-sensitive observables.  
+
+The workflow proceeded through consecutive models:
+
+1. [Neural Network baseline](nn/nn.md)  
+   - Feed-forward model for tau momentum regression.  
+   - Serves as a baseline for comparison.  
+
+2. [Transformer v1](transformer_v1/transformer_v1.md)  
+   - First transformer adaptation for tau momentum regression.  
+   - Introduced tau and pion decay matrices as inputs.  
+
+3. [Transformer v2](transformer_v2/transformer_v2.md)  
+   - Added vertex info, jets, pion charges/energies, and px/py/pz targets.  
+   - Model also regresses neutrino momenta.  
+
+4. [Transformer v3](transformer_v3/transformer_v3.md)  
+   - Final version during the internship.  
+   - Directly regresses full tau momenta.  
+   - $\phi_{CP}$ reconstructed from full 3D information.  
+
+---
+
+## Repository structure
 
 ```bash
 Higgs-transformers/
 ├── data/
 │   └── data.md
-├── eda/
-│   └── plots/                # e.g., Higgs mass distribution, other plots
+├── eda/                   # exploratory plots
 ├── nn/
 │   ├── nn_code/
 │   ├── nn_results/
 │   └── nn.md
+├── theory/
+│   └── theory_overview.md
 ├── transformer_v1/
 │   ├── transformer_v1_code/
 │   ├── transformer_v1_results/
@@ -23,12 +59,10 @@ Higgs-transformers/
 │   ├── transformer_v3_code/
 │   ├── transformer_v3_results/
 │   └── transformer_v3.md
-├── theory/
-│   └── theory_overview.md
 ├── LICENSE
 ├── README.md
 └── requirements.txt
-```
+
 
 
 
