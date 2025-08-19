@@ -1,6 +1,6 @@
-# Higgs-transformers
+# Full tau momentum regression to construct CP-sensitive variables (using transformer-based models)
 
-This repository contains the work from a research internship in the CMS group at my university.  
+This repository contains the work from my research internship in the CMS group at my university.  
 The project focused on using transformer-based architectures to improve the reconstruction of tau lepton kinematics in Higgs boson decays. The motivation comes from studying the CP properties of the Higgs through the acoplanarity angle ($\phi_{CP}$), which is sensitive to the Higgs–tau–tau coupling.  
 
 For the theoretical background and data description, see:
@@ -31,6 +31,7 @@ The workflow proceeded through consecutive models:
    - Directly regresses full tau momenta.  
    - $\phi_{CP}$ reconstructed from full 3D information.
 
+Many other versions of the transformer model (around 30) were created during the internship, but their results were not significantly different from the ones obtained using the main versions presented here. Due to their number, they are not included in this repository.
 
 ## Repository structure
 
