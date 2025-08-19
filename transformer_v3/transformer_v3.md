@@ -59,7 +59,7 @@ To validate the assumption about correct tau directions, we compare reconstructe
 |---|---|  
 | ![phi reco](transformer_v3_results/phi1_reco.png) | ![phi regr](transformer_v3_results/phi1_regr.png) |  
 
-Both reconstructed and regressed angular variables are close to the generated ones, confirming that the tau directions were already well estimated. We observe nonetheless that the regressed distribution overlaps better with the generated one than the reconstructed distribution.
+Both reconstructed and regressed angular variables are close to the generated ones, confirming that the tau directions were already well estimated. We observe nonetheless that the reconstructed distribution overlaps better with the generated one than the regressed distribution (it might be better to continue with regressing the transverse component only).
 
 ## Summary
 
