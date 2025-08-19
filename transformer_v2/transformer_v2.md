@@ -1,6 +1,6 @@
 # Transformer v2
 
-This stage builds directly on [Transformer v1](../transformer_v1/).  
+This stage builds directly on [Transformer v1](../transformer_v1/transformer_v1.md).  
 The general motivation and architecture are described there.  
 Here, the focus was on enriching the input information and extending the regression targets to include full neutrino momenta.
 
