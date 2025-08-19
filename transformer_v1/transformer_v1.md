@@ -63,7 +63,7 @@ The recovered distribution is closer to the reference than the neural network on
 
 ---
 
-## 📚 References
+## References
 
 - Qu, H., Li, C., & Qian, S. *Particle Transformer for Jet Tagging*.  
 - Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, L., & Polosukhin, I. *Attention Is All You Need*.  
