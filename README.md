@@ -1,8 +1,7 @@
 # Higgs-transformers
 
-This repository contains the work from my research internship in the CMS group at my university.  
-The project focused on using transformer-based architectures to improve the reconstruction of tau lepton kinematics in Higgs boson decays.  
-The motivation comes from studying the CP properties of the Higgs through the acoplanarity angle ($\phi_{CP}$), which is sensitive to the Higgs–tau–tau coupling.  
+This repository contains the work from a research internship in the CMS group at my university.  
+The project focused on using transformer-based architectures to improve the reconstruction of tau lepton kinematics in Higgs boson decays. The motivation comes from studying the CP properties of the Higgs through the acoplanarity angle ($\phi_{CP}$), which is sensitive to the Higgs–tau–tau coupling.  
 
 For the theoretical background and data description, see:
 - [theory_overview.md](theory/theory_overview.md)  
@@ -30,9 +29,8 @@ The workflow proceeded through consecutive models:
 4. [Transformer v3](transformer_v3/transformer_v3.md)  
    - Final version during the internship.  
    - Directly regresses full tau momenta.  
-   - $\phi_{CP}$ reconstructed from full 3D information.  
+   - $\phi_{CP}$ reconstructed from full 3D information.
 
----
 
 ## Repository structure
 
@@ -40,7 +38,7 @@ The workflow proceeded through consecutive models:
 Higgs-transformers/
 ├── data/
 │   └── data.md
-├── eda/                   # exploratory plots
+├── eda/             # exploratory plots
 ├── nn/
 │   ├── nn_code/
 │   ├── nn_results/
@@ -62,6 +60,11 @@ Higgs-transformers/
 ├── LICENSE
 ├── README.md
 └── requirements.txt
+```
+
+## Notes
+
+This work was completed as part of my internship project, thus with a limited time. While the transformer models showed significant improvement over the neural network baseline, there is still room for refinement (e.g. better feature engineering, training strategies, or more advanced transformer variants).
 
 
 
